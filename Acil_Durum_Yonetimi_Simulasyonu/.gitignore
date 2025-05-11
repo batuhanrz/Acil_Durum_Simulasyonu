@@ -1,0 +1,61 @@
+﻿# Visual Studio Cache/Temporary Files
+.vscode/
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.pdb
+*.log
+*.tlog
+*.ipch
+*.ilk
+*.idb
+*.opendb
+*.VC.db
+
+# Roadmap ve Progress Dosyaları Hariç
+!Docs/roadmap.md
+!Docs/progress.md
+
+# Debug ve Release Klasörleri
+/Debug/
+/Release/
+/x64/
+/x86/
+/out/
+/publish/
+
+# Windows Specific
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Git Specific
+*.lock
+*.gitattributes
+
+# Resharper / Rider / Visual Studio Cache
+_ReSharper*/
+*.DotSettings.user
+*.DotSettings
+
+# IDE Specific
+.idea/
+.vs/
+.vscode/
+
+# Nuget Packages
+packages/
+*.nupkg
+*.snupkg
+
+# Build Artifacts
+build/
+dist/
+artifacts/
+
+
+TestLogs/
+Data/
