@@ -1,0 +1,196 @@
+{
+  "statuses": [
+    {
+      "statusName": "Durum A",
+      "priorityQueue": [
+        {
+          "priority": 1,
+          "description": "Kalp krizi - Acil"
+        },
+        {
+          "priority": 2,
+          "description": "Kafa travması - Kritik"
+        },
+        {
+          "priority": 3,
+          "description": "Kırık kol - Orta"
+        },
+        {
+          "priority": 4,
+          "description": "Yanık - Orta"
+        },
+        {
+          "priority": 5,
+          "description": "Ateş - Hafif"
+        }
+      ],
+      "linkedList": [
+        {
+          "patientId": "201",
+          "name": "Hasta 201",
+          "condition": "Acil"
+        },
+        {
+          "patientId": "202",
+          "name": "Hasta 202",
+          "condition": "Ameliyat Bekliyor"
+        },
+        {
+          "patientId": "203",
+          "name": "Hasta 203",
+          "condition": "Yoğun Bakımda"
+        },
+        {
+          "patientId": "204",
+          "name": "Hasta 204",
+          "condition": "Tetkik Bekliyor"
+        },
+        {
+          "patientId": "205",
+          "name": "Hasta 205",
+          "condition": "Müşahede Altında"
+        }
+      ],
+      "graph": [
+        {
+          "node": "Oda A1",
+          "connections": [ "Oda A2", "Oda A3" ]
+        },
+        {
+          "node": "Oda A2",
+          "connections": [ "Oda A1" ]
+        },
+        {
+          "node": "Oda A3",
+          "connections": [ "Oda A1", "Oda A4" ]
+        },
+        {
+          "node": "Oda A4",
+          "connections": [ "Oda A3" ]
+        },
+        {
+          "node": "Oda A5",
+          "connections": []
+        }
+      ],
+      "hashMap": [
+        {
+          "patientId": "201",
+          "status": "Acil"
+        },
+        {
+          "patientId": "202",
+          "status": "Ameliyat Bekliyor"
+        },
+        {
+          "patientId": "203",
+          "status": "Yoğun Bakımda"
+        },
+        {
+          "patientId": "204",
+          "status": "Tetkik Bekliyor"
+        },
+        {
+          "patientId": "205",
+          "status": "Müşahede Altında"
+        }
+      ]
+    },
+    {
+      "statusName": "Durum B",
+      "priorityQueue": [
+        {
+          "priority": 1,
+          "description": "Kanama - Acil"
+        },
+        {
+          "priority": 2,
+          "description": "Nefes Darlığı - Kritik"
+        },
+        {
+          "priority": 3,
+          "description": "Bilek Burkulması - Orta"
+        },
+        {
+          "priority": 4,
+          "description": "Baş Ağrısı - Hafif"
+        },
+        {
+          "priority": 5,
+          "description": "Mide Bulantısı - Hafif"
+        }
+      ],
+      "linkedList": [
+        {
+          "patientId": "301",
+          "name": "Hasta 301",
+          "condition": "Acil"
+        },
+        {
+          "patientId": "302",
+          "name": "Hasta 302",
+          "condition": "Ameliyat Bekliyor"
+        },
+        {
+          "patientId": "303",
+          "name": "Hasta 303",
+          "condition": "Yoğun Bakımda"
+        },
+        {
+          "patientId": "304",
+          "name": "Hasta 304",
+          "condition": "Tetkik Bekliyor"
+        },
+        {
+          "patientId": "305",
+          "name": "Hasta 305",
+          "condition": "Müşahede Altında"
+        }
+      ],
+      "graph": [
+        {
+          "node": "Oda B1",
+          "connections": [ "Oda B2", "Oda B3" ]
+        },
+        {
+          "node": "Oda B2",
+          "connections": [ "Oda B1" ]
+        },
+        {
+          "node": "Oda B3",
+          "connections": [ "Oda B1", "Oda B4" ]
+        },
+        {
+          "node": "Oda B4",
+          "connections": [ "Oda B3" ]
+        },
+        {
+          "node": "Oda B5",
+          "connections": []
+        }
+      ],
+      "hashMap": [
+        {
+          "patientId": "301",
+          "status": "Acil"
+        },
+        {
+          "patientId": "302",
+          "status": "Ameliyat Bekliyor"
+        },
+        {
+          "patientId": "303",
+          "status": "Yoğun Bakımda"
+        },
+        {
+          "patientId": "304",
+          "status": "Tetkik Bekliyor"
+        },
+        {
+          "patientId": "305",
+          "status": "Müşahede Altında"
+        }
+      ]
+    }
+  ]
+}
