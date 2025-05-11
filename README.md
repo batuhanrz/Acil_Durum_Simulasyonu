@@ -36,11 +36,25 @@ Simülasyon işlemleri bu dosyada yürütülmektedir. İki farklı mod vardır:
 * **DS\_BASED:** Veri yapıları kullanılarak işlemler yapılır ve analiz edilir.
 * **REGULAR:** Veri yapıları kullanılmadan düz işlemler (foreach) yapılır ve analiz edilir.
 
+ **Simulasyon sonucu TestLogs adlı klasöre bellek kullanımı, simulasyon süresi gibi bilgiler ve simulasyon sonucu oluşan veriler loglanır**
+
 ---
 
 ### **4. JSONMaker.cs:**
 
 Simülasyon verilerinin oluşturulması ve kaydedilmesi bu dosya üzerinden yapılır. Kullanıcı, belirli büyüklükte veri setleri oluşturabilir ve bu veriler üzerinde simülasyon çalıştırılabilir.
+
+---
+
+### MainForm.cs
+
+MainForm, kullanıcı arayüzünün ana yönetim merkezidir ve simülasyon işlemlerini başlatmak, veri eklemek ve verileri yönetmek için gerekli bileşenleri içerir. Kullanıcılar burada veri yapıları panelleri (Heap, LinkedList, Graph, HashMap) ile etkileşime geçip mod bazlı simülasyonları çalıştırabilir. 
+
+---
+
+### OperationTimer
+
+OperationTimer, bellek kullanımı ve işlem süresi ölçümü için kullanılır. Verilerin işlenme süresi ve bellek tüketimi analiz edilip, kullanıcıya raporlanır. Bu sayede, veri yapılarının performans etkisi gözlemlenebilir ve optimizasyon yapılabilir.
 
 ---
 
