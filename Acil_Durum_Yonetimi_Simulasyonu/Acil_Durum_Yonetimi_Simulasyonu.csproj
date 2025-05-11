@@ -135,21 +135,11 @@
     <Compile Include="DataStructures\PriorityEntry.cs" />
     <Compile Include="DataStructures\SimulationData.cs" />
     <Compile Include="DataStructures\StatusItem.cs" />
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
     <Compile Include="JSONMaker.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\OperationTimer.cs" />
     <Compile Include="Services\SimulationService.cs" />
-    <Compile Include="Tests\GraphTests.cs" />
-    <Compile Include="Tests\HashMapTests.cs" />
-    <Compile Include="Tests\HeapTests.cs" />
-    <Compile Include="Tests\LinkedListTests.cs" />
     <Compile Include="UI\Components\DataAssignmentPanel.cs">
       <SubType>UserControl</SubType>
     </Compile>
