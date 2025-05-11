@@ -1,1 +1,0 @@
-# Acil_Durum_Simulasyonu
