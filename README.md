@@ -46,13 +46,13 @@ Simülasyon verilerinin oluşturulması ve kaydedilmesi bu dosya üzerinden yap�
 
 ---
 
-### MainForm.cs
+### **5. MainForm.cs: **
 
 MainForm, kullanıcı arayüzünün ana yönetim merkezidir ve simülasyon işlemlerini başlatmak, veri eklemek ve verileri yönetmek için gerekli bileşenleri içerir. Kullanıcılar burada veri yapıları panelleri (Heap, LinkedList, Graph, HashMap) ile etkileşime geçip mod bazlı simülasyonları çalıştırabilir. 
 
 ---
 
-### OperationTimer
+### **6. OperationTimer: **
 
 OperationTimer, bellek kullanımı ve işlem süresi ölçümü için kullanılır. Verilerin işlenme süresi ve bellek tüketimi analiz edilip, kullanıcıya raporlanır. Bu sayede, veri yapılarının performans etkisi gözlemlenebilir ve optimizasyon yapılabilir.
 
@@ -60,7 +60,7 @@ OperationTimer, bellek kullanımı ve işlem süresi ölçümü için kullanıl�
 
 ## **Test ve Performans Ölçümleri:**
 
-Bu bölümde, **100x1000x4** ve **250x1000x4** veri setleri üzerinde gerçekleştirilen **DS\_BASED** (Veri Yapıları Tabanlı) ve **REGULAR** (Normal arama tabanlı) modlarının performans analizleri sunulmaktadır. Analizler, **süre (ms)** ve **bellek kullanımı (KB)** üzerinden gerçekleştirilmiştir.
+Bu bölümde, **100x1000x4** ve **250x1000x4** (Durum Sayısı x Veri Yapısı Örneği x Veri Yapısı Sayısı) veri setleri üzerinde gerçekleştirilen **DS\_BASED** (Veri Yapıları Tabanlı) ve **REGULAR** (Normal arama tabanlı) modlarının performans analizleri sunulmaktadır. Analizler, **süre (ms)** ve **bellek kullanımı (KB)** üzerinden gerçekleştirilmiştir.
 
 ###  **Süre (DurationMilliseconds) Karşılaştırması:**
 
