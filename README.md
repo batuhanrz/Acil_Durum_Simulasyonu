@@ -46,13 +46,13 @@ Simülasyon verilerinin oluşturulması ve kaydedilmesi bu dosya üzerinden yap�
 
 ---
 
-### **5. MainForm.cs: **
+### **5. MainForm.cs:**
 
 MainForm, kullanıcı arayüzünün ana yönetim merkezidir ve simülasyon işlemlerini başlatmak, veri eklemek ve verileri yönetmek için gerekli bileşenleri içerir. Kullanıcılar burada veri yapıları panelleri (Heap, LinkedList, Graph, HashMap) ile etkileşime geçip mod bazlı simülasyonları çalıştırabilir. 
 
 ---
 
-### **6. OperationTimer: **
+### **6. OperationTimer:**
 
 OperationTimer, bellek kullanımı ve işlem süresi ölçümü için kullanılır. Verilerin işlenme süresi ve bellek tüketimi analiz edilip, kullanıcıya raporlanır. Bu sayede, veri yapılarının performans etkisi gözlemlenebilir ve optimizasyon yapılabilir.
 
